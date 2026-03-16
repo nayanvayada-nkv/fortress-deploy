@@ -1,8 +1,7 @@
 from flask import Flask
 
 #"AKIA_FAKE_SECRET_123456" this aws pattern so gitleak not detect this now we change this for testing purpose
-AWS_ACCESS_KEY_ID="AKIAIOSFODNN7EXAMPLE-1"
-
+AWS_ACCESS_KEY_ID="AKIA1234567890ABCDE"
 app = Flask(__name__)
 
 @app.route("/")
