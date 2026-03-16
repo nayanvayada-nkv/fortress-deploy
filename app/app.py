@@ -1,6 +1,6 @@
 from flask import Flask
 
-AWS_ACCESS_KEY_ID="AKIA1234567890ABCDEF"
+AWS_ACCESS_KEY_ID= ${{ secrets.AWS_ACCESS_KEY_ID }}
 
 app = Flask(__name__)
 
